@@ -1,5 +1,7 @@
+import defaultImage from './default.jpg'
+
 const Painting = ({
-    imageUrl,
+    imageUrl = defaultImage,
     title,
     profileUrl,
     author = 'не известно',
